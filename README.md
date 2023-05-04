@@ -21,6 +21,7 @@ yarn add -D typescript
 yarn dlx @yarnpkg/sdks vscode // > 허용
 ```
 
+
 #### 8. apps/wanted에서 pacakges/lib 의존해 보기
 
 - root로 이동
@@ -37,3 +38,38 @@ yarn workspace @wanted/web add @wanted/lib
 
 # apps/wanted/package.json에 의존성이 추가된 것을 확인
 ``` -->
+
+#### tsconfig 설정 공유
+
+- root에 tsconfig.base.json 생성
+
+```
+{
+  "compilerOptions": {
+    "strict": true,
+    "useUnknownInCatchVariables": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "incremental": true,
+    "newLine": "lf"
+  },
+  "exclude": ["**/node_modules", "**/.*/"]
+}
+```
+
+#### prettier, eslint 설정 공통화
+
+- root 에서 prettier, eslint 설치
+
+```
+yarn add prettier eslint eslint-config-prettier eslint-plugin-import eslint-plugin-react eslint-plugin-react-hooks eslint-import-resolver-typescript @typescript-eslint/eslint-plugin @typescript-eslint/parser -D
+
+
+yarn dlx @yarnpkg/sdks
+```
