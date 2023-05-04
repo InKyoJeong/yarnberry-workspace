@@ -5,6 +5,11 @@
 $ yarn workspace @wanted/web dev
 ```
 
+```
+# 모든 프로젝트를 typecheck 하기
+$ yarn g:typecheck
+```
+
 <!-- - root가서 상태 갱신하기
 
 ```

@@ -1,6 +1,9 @@
 {
   "name": "@wanted/ui",
   "main": "./src/index.ts",
+  "scripts": {
+    "typecheck": "tsc --project ./tsconfig.json --noEmit"
+  },
   "packageManager": "yarn@3.5.1",
   "devDependencies": {
     "@types/node": "^18.16.3",

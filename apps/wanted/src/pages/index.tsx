@@ -27,7 +27,7 @@ export default function Home() {
             의존성 테스트
             <code className={styles.code}>{sayHello()}</code>
           </p>
-          <Button>wanted UI</Button>
+          <Button variant="contained">wanted UI</Button>
 
           <div>
             <a
