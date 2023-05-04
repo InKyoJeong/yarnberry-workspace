@@ -39,7 +39,7 @@ yarn workspace @wanted/web add @wanted/lib
 # apps/wanted/package.json에 의존성이 추가된 것을 확인
 ``` -->
 
-#### tsconfig 설정 공유
+<!-- #### tsconfig 설정 공유
 
 - root에 tsconfig.base.json 생성
 
@@ -72,4 +72,4 @@ yarn add prettier eslint eslint-config-prettier eslint-plugin-import eslint-plug
 
 
 yarn dlx @yarnpkg/sdks
-```
+``` -->
