@@ -1,5 +1,10 @@
 # yarnberry-workspace
 
+```bash
+# @wanted/web 구동
+$ yarn workspace @wanted/web dev
+```
+
 <!-- - root가서 상태 갱신하기
 
 ```

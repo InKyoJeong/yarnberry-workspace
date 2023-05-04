@@ -1,5 +1,6 @@
 {
   "name": "@wanted/ui",
+  "main": "./src/index.ts",
   "packageManager": "yarn@3.5.1",
   "devDependencies": {
     "@types/node": "^18.16.3",

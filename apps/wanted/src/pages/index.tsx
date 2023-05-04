@@ -1,4 +1,5 @@
 import { sayHello } from '@wanted/lib';
+import { Button } from '@wanted/ui';
 import { Inter } from 'next/font/google';
 import Head from 'next/head';
 import Image from 'next/image';
@@ -26,6 +27,7 @@ export default function Home() {
             의존성 테스트
             <code className={styles.code}>{sayHello()}</code>
           </p>
+          <Button>wanted UI</Button>
 
           <div>
             <a
